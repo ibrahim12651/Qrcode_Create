@@ -5,7 +5,7 @@ class QRCodeGenerator:
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("QR Code Generator")
-        self.root.geometry("400x400")
+        self.root.geometry("400x185")
         self.root.resizable(False, False)
 
         self.label = tk.Label(self.root, text="Enter the text to generate QR Code", font=("Helvetica", 15))
